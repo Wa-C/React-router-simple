@@ -1,16 +1,14 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { FaYoutube } from '@fortawesome/free-solid-svg-icons'
-import { AiFillFacebook } from "react-icons/fa";
-import {faFacebook, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
-
+import facebook from './images/Facebook.png'
+import Twitter from './images/Twitter.png'
+import yt from './images/YouTube.png'
 const Footer = () => {
     return (
         <Container className="text-center">
-            {/* <FontAwesomeIcon icon={FaYoutube} /> */}
-            {/* <AiFillFacebook /> */}
-            <FontAwesomeIcon icon={['fab', faFacebook]} />
+            <a href="https://www.facebook.com"><img src={facebook} alt="" /></a>
+            <a href="https://www.youtube.com"><img src={Twitter} alt="" /></a>
+            <a href="https://www.twitter.com"><img src={yt} alt="" /></a>
         </Container>
     );
 };

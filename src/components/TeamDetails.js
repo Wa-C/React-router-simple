@@ -15,7 +15,7 @@ const TeamDetails = () => {
         fetch(`https://www.thesportsdb.com/api/v1/json/1/lookupteam.php?id=${idTeam}`)
             .then(res => res.json())
             .then(data => setTeam(data.teams[0]))
-        // console.log(Team);
+        
 
     }, [idTeam])
 
@@ -23,7 +23,7 @@ const TeamDetails = () => {
         <div className="container my-5">
             <div className="row">
                 <div className="col-md-6">
-                    {/* <img className="img-fluid" src={``} alt=""/> */}
+                    <img className="img-fluid" src={Team.strStadiumThumb} alt=""/>
                 </div>
                 <div className="row">
                     <div className="col-md-6">

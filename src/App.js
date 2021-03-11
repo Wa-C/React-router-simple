@@ -28,12 +28,12 @@ function App() {
         <Route path="*">
           <h1 className="text-center my-5">404 - Not Found!</h1>
         </Route>
-        
+
       </Switch>
 
       <Footer />
     </Router>
-    
+
   );
 }
 

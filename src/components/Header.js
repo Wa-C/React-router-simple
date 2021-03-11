@@ -8,9 +8,10 @@ const Header = () => {
     return (
         
             <Container>
-                <div className="xxx">
+                <div className="row">
+                    <div className="col-md-12">
                 <img style={{height:'300px',width:'1500px'}} src = {picture} alt=""></img>
-                
+                </div>
                 </div>
             </Container>
         
