@@ -1,10 +1,19 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
+import {Link} from "react-router-dom";
+import picture from './images/headerimage.jpg'
+import './Header.css'
 
 const Header = () => {
     return (
-        <div>
-            <h1>This is header</h1>
-        </div>
+        
+            <Container>
+                <div className="xxx">
+                <img style={{height:'300px',width:'1500px'}} src = {picture} alt=""></img>
+                
+                </div>
+            </Container>
+        
     );
 };
 
